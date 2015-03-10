@@ -10,7 +10,7 @@ func (r *Rect) area() int {
 	return r.width * r.height
 }
 
-func (r *Rect) perim() int {
+func (r Rect) perim() int {
 	return (2 * r.width) + (2 * r.height)
 }
 
