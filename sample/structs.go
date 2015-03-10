@@ -2,20 +2,20 @@ package main
 
 import "fmt"
 
-type person struct {
+type Person struct {
 	name string
 	age int
 }
 
 func main() {
 	
-	s := person{"Bobo", 21}	
+	s := Person{"Bobo", 21}	
 	fmt.Println(s)
 
-	y := person{name : "Bebe", age :20}
+	y := Person{name : "Bebe", age :20}
 	fmt.Println(y)
 
-	var z person
+	var z Person
 	z.name = "kobeap"
 	z.age = 24
 	fmt.Println("My name is", z.name)
